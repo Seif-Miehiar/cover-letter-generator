@@ -196,7 +196,7 @@ var updateCoverLetter = (dataObject) => {
 		} please contact me to arrange an interview. I am eager to learn more about how your organization can benefit from my contribution.
     I thank you for your time and consideration, and I look forward to hearing from you.
     Regards,
-    ${dataObject.yourName}
+    ${upperName(dataObject.yourName)}
     #${editName(dataObject.yourName)} #jobs #careers
     `;
 	///////////////////
@@ -229,7 +229,7 @@ var updateCoverLetter = (dataObject) => {
 		} please contact me to arrange an interview. I am eager to learn more about how your organization can benefit from my contribution.
     I thank you for your time and consideration, and I look forward to hearing from you.
     Regards,
-    ${dataObject.yourName}
+    ${upperName(dataObject.yourName)}
     #${editName(dataObject.yourName)} #jobs #careers`;
 	///////////////////////
 
@@ -261,7 +261,7 @@ var updateCoverLetter = (dataObject) => {
 		} please contact me to arrange an interview. I am eager to learn more about how your organization can benefit from my contribution.
     I thank you for your time and consideration, and I look forward to hearing from you.
     Regards,
-    ${dataObject.yourName}
+    ${upperName(dataObject.yourName)}
     #${editName(dataObject.yourName)} #jobs #careers
     `);
 
